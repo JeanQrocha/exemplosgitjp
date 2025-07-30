@@ -1,2 +1,2 @@
-# exemplosgitjp
-exemplos da aula PJP aula de git
+# exemplos-git-jp
+exemplos da aula git - PJP 2025
