@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
     <link rel="stylesheet" href="./style/index.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -24,6 +25,7 @@
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
+                <button>Adicionar</button>
             </ul>
             <h3>Lista ordenada</h3>
             <ol>
@@ -72,8 +74,8 @@
                     <input type="file" name="anexo" id="anexo">
                 </div>
 
-                <button type="submit">Enviar</button>
-
+                <button type="submit" >Enviar</button>
+                <button type="button" id="botao">exemploJS</button>
             </form>
         </section>
 
@@ -83,24 +85,10 @@
     <!-- rodapé -->
     <footer id="pe">
         <P>
-            Minha primeira pagina - &copy; Todos os direitos reservados
+            Minha primeira pagina &copy; Todos os direitos reservados
         </P>
     </footer>
-     <script>
-        const exemploH2 = document.getElementById("exemplo-get");
-        exemploH2.style.color = 'blue';
 
-        const novaH1 = document.createElement('h1');
-        novaH1.textContent = "NOVO ELEMENTO H1 NA TELA";
-        console.log("NOVO H1 ====>",novaH1);
-        exemploH2.appendChild(novaH1);
-
-        const novoHeader = document.getElementById("cabeca");
-        novoHeader.style.backgroundColor = 'red'
-
-        const novoFooter = document.getElementById("pe");
-        novoFooter.style.fontSize = "32px"
-    </script>
 </body>
 
 </html>
